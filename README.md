@@ -43,7 +43,7 @@ cd backend
 Clone the TMR repository:
 
 ```
-git clone git@github.kcl.ac.uk:big/tmr.git
+git clone https://github.com/consult-kcl/tmr.git
 ```
 
 Enter Prolog environment:
@@ -86,12 +86,12 @@ Create an environment file:
 
 ```
 touch .env
-```
+```server
 
 Add the following information to this environment file using a text editor:
 
 ```
-FUSEKI_PASSWORD="[Password]".
+FUSEKI_PASSWORD="[Password]"
 ```
 
 Where [Password] is the password you created for the triple store earlier.
@@ -99,7 +99,7 @@ Where [Password] is the password you created for the triple store earlier.
 Run server:
 
 ```
-npm started
+npm start
 ```
 
 The server runs by default on port 3000.
